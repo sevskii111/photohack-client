@@ -1,0 +1,65 @@
+html {
+  background-repeat: space;
+  background-image: linear-gradient(#6cb9ec, #fff6e4);
+  box-shadow: inset 0 0 100px hsla(0,0%,0%,.3);
+  min-height: 100%;
+}
+body {
+  display: flex;
+  flex-direction: row;
+  flex-flow: row;
+  justify-content: space-around;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10%;
+  padding-right: 10%;
+  justify-content: flex-end;
+
+}
+.mobil {
+height: 500px;
+width: 300px;
+border-radius: 20px;
+border-style: solid;
+border-color: black;
+background-color: grey;
+display: flex;
+flex-direction: column-reverse;
+justify-content: flex-start;
+padding-bottom: 20px;
+
+}
+.text {
+  background-color: #273c62;
+  border-color: #273c62;
+  color: white;
+  font-weight: bold;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.file {
+
+}
+.btn {
+  margin-top: 10px;
+  background-color: #273c62;
+  border-color: #273c62;
+  color: white;
+  font-weight: bold;
+  border-radius: 20px;
+  width: 70px;
+  align-self: center;
+}
+.image {
+  align-self: flex-end;
+  margin: 20px;
+  margin-bottom: 20%;
+  visibility: hidden;
+}
+.img {
+  height: 200px;
+  width: 200px;
+}
